@@ -1,6 +1,7 @@
 // Structured career inventories are source banks, not one-page resumes.
 // Keep instructions/evidence notes out of application bullets.
-const BULLET = /^[•▪◦‣*\-–\uf0b7]\s+/;
+// const BULLET = /^[•▪◦‣*\-–\uf0b7]\s+/;
+const BULLET = /^[•▪◦‣*\-–\uf0b7]\s*/;
 const heading = (line) =>
   line
     .replace(/^#{1,6}\s+/, "")
